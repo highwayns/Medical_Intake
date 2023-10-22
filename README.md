@@ -1,8 +1,43 @@
-# Medical Intake Experiment
+# MediBot - Intelligent Medical Assistant
 
-Automated pipeline for medical intake, diagnosis, tests, etc. Meant to be used as a clinical aid.
+1. Target Users
+  a. Clinical Physicians
+  b. Nurses
+  c. Medical Experts
+  d. Patients
 
-Introductory video here: https://youtu.be/EAger7jOrsA 
+2. Key Features
+  2.1 Patient Intake and Symptom Collection
+    a. Automatically ask questions to help patients describe their symptoms clearly.
+    b. Convert chat records into medical records.
+  2.2 Clinical Recommendations
+    a. Generate possible diagnoses or investigation directions based on the patient's symptoms and medical records.
+    b. Provide clinical examination recommendations, including which senses should be used for examination.
+  2.3 Referrals and Follow-up Tests
+    a. Recommend specialized referrals that may be needed.
+    b. Suggest follow-up laboratory tests and examinations.
+   2.4 Interview Questions Generation
+    a. Generate a list of questions for doctors to use during interviews with patients.
+
+3. Technical Implementation
+  a. Utilize large language models for natural language processing and understanding.
+  b. Integrate medical databases to provide more accurate diagnoses and recommendations.
+  c. Use machine learning algorithms to optimize diagnostic accuracy.
+
+4. Data Security and Compliance
+  a. HIPAA (Health Insurance Portability and Accountability Act) compliance.
+  b. Data encryption for storage and transmission.
+
+5. Business Model
+  a. Subscription Model: Healthcare institutions subscribe on a monthly or annual basis.
+  b. One-time Service Fees: For individual patients or small clinics.
+
+6. Development Roadmap
+  a. Prototype development and internal testing.
+  b. Small-scale pilot projects.
+  c. Gather feedback and optimize.
+  d. Expand service coverage.
+  e. Continuously update and optimize.
 
 # Medical Device Disclaimer
 
@@ -18,6 +53,25 @@ By using this software, you acknowledge and agree that you understand this discl
 
 This disclaimer may be updated from time to time, and it is the responsibility of the user to review and comply with the current version of the disclaimer.
 
-# Usage
+# How to Use the App
 
-It's pretty much automatic. Just fire up `chat.py` and it will take you through the whole process. Everything will be saved out to `logs/`
+1. Install Python:
+If you haven't already, make sure to install Python on your computer. You can download it from the official Python website at python.org.
+
+2. Install Python Libraries:
+Open your terminal or command prompt, navigate to the app's directory, and run the following command to install the required Python libraries:
+'''
+pip install -r requirements.txt
+'''
+
+3. Start the App:
+Once the libraries are installed, you can start the app by running the following command in your terminal:
+'''
+python ./chat.py
+'''
+
+4. Answer Questions:
+The app will prompt you with questions, and you can answer them accordingly.
+
+5. Save Results:
+After you answer the questions, the results will be saved to the ./logs folder in the app's directory.
